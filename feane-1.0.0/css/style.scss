@@ -1,8 +1,10 @@
 $white: #ffffff;
 $black: #000000;
-$primary1: #ffbe33;
-$primary2: #222831;
-$textCol: #1f1f1f;
+/* paleta: turquesa, morado y rosa */
+$primary1: #1fb6b7; /* turquesa */
+$primary2: #2b123b; /* morado oscuro */
+$accent-pink: #ff6fb1; /* rosa vibrante */
+$textCol: #3b0d4a;
 
 // import fonts -  font-family: 'Open Sans', sans-serif and  font-family: 'Dancing Script', cursive;
 
@@ -437,7 +439,10 @@ a:focus {
         }
       }
 
-      p {}
+      p {
+        font-size: 15px;
+        color: $white; /* forzar blanco para que se vea sobre el fondo */
+      }
 
       a {
         @include hero_btn($primary1, $white, 10px, 30px, 45px);
