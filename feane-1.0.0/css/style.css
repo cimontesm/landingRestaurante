@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #3b0d4a; /* texto principal: morado oscuro */
-  background-color: #fff0f6; /* fondo claro rosado */
+  background-color: #fdecef; /* lavender blush */
   overflow-x: hidden;
 }
 
@@ -201,41 +201,6 @@ a:focus {
           align-items: center;
 }
 
-.user_option a {
-  margin: 0 10px;
-}
-
-.user_option .user_link {
-  color: #ff6fb1;
-}
-
-.user_option .user_link:hover {
-  color: #1fb6b7;
-}
-
-.user_option .cart_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.user_option .cart_link svg {
-  width: 17px;
-  height: auto;
-  fill: #ff6fb1;
-  margin-bottom: 2px;
-}
-
-.user_option .cart_link:hover svg {
-  fill: #1fb6b7;
-}
-
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
@@ -253,27 +218,6 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
-}
-
-.custom_nav-container .navbar-toggler {
-  padding: 0;
-  width: 37px;
-  height: 42px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.custom_nav-container .navbar-toggler span {
-  display: block;
-  width: 35px;
-  height: 4px;
-  background-color: #ffffff;
-  margin: 7px 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-  border-radius: 5px;
-  transition: all 0.3s;
 }
 
 .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
@@ -409,9 +353,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 45px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px 15px;
-  background-color: #2b123b; /* morado oscuro */
+  background-color: #3b1238; /* morado oscuro */
   color: #ffffff;
 }
 
@@ -514,7 +458,7 @@ a:focus {
 }
 
 .food_section .box .img-box {
-  background: #ffeef7;
+  background: #8cc7a1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,12 +492,12 @@ a:focus {
 
 .food_section .box .detail-box p {
   font-size: 15px;
-  color: #ffffff; /* cambiado a blanco para que las descripciones se vean */
+  color: #fdecef; /* cambiado a blanco para que las descripciones se vean */
 }
 
 .food_section .box .detail-box h6 {
   margin-top: 10px;
-  color: #3b0d4a;
+  color: #1fb6b7;
 }
 
 .food_section .box .options {
@@ -784,13 +728,13 @@ a:focus {
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #1fb6b7; /* acento turquesa */
+  background-color: #77567a; /* acento turquesa */
   -webkit-transform: rotate(45deg) translateX(-50%);
           transform: rotate(45deg) translateX(-50%);
 }
 
 .client_section .box .detail-box {
-  background-color: #2b123b;
+  background-color: #77567a;
   color: #ffffff;
   padding: 25px 25px 15px 25px;
   border-radius: 5px;
@@ -823,7 +767,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
   height: 45px;
-  background-color: #1fb6b7;
+  background-color: #8cc7a1;
   color: #ffffff;
   outline: none;
   bottom: 0px;
