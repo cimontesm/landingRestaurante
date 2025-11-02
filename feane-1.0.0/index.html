@@ -33,6 +33,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -198,37 +199,6 @@
                         <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
                      c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                       </g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
                   </svg>
                 </a>
               </div>
@@ -269,36 +239,6 @@
                         <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
                      c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                       </g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
                     </g>
                   </svg>
                 </a>
@@ -657,11 +597,11 @@
           </div>
         </div>
         <div class="col-md-6">
-           <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3593.2735953665574!2d-80.19387759105489!3d25.761525158183236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1762038357465!5m2!1ses-419!2sec"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3593.2735953665574!2d-80.19387759105489!3d25.761525158183236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1762038357465!5m2!1ses-419!2sec"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </div>
@@ -763,6 +703,47 @@
 
   <!-- end client section -->
 
+  <!-- Contact Section -->
+  <section class="contact_section layout_padding-bottom layout_padding" style="background-color: #ffe6f6;">
+    <div class="container">
+      <div class="heading_container text-center mb-5">
+        <h2>Questions?</h2>
+        <p class="text-muted">
+          Have a suggestion or question? We’d love to hear from you.
+        </p>
+      </div>
+
+      <div class="contact_card">
+        <form id="contactForm">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="form_container">
+                <div class="form-group mb-3">
+                  <label for="nombre">Your Name</label>
+                  <input type="text" id="nombre" class="form-control stylish-input" placeholder="Enter your name"
+                    required />
+                </div>
+
+                <div class="form-group mb-3">
+                  <select id="motivo" class="form-control stylish-input" required>
+                    <option value="">Select an option</option>
+                    <option value="pedido">Suggestion</option>
+                    <option value="consulta">Question</option>
+                  </select>
+                </div>
+
+                <div class="text-center mt-4">
+                  <button type="submit" class="btn btn-custom" style="border-radius: 50px;">Send Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
@@ -843,10 +824,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
 
 </body>
 
